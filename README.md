@@ -194,9 +194,9 @@ Use clear, descriptive endpoint paths for better debugging:
 - Android 5.0 (API 21) or above
 
 ## Additional Information
-- [Report Issues](https://github.com/yourusername/api_response_debugger/issues)
-- [Request Features](https://github.com/yourusername/api_response_debugger/issues/new)
-- [Documentation](https://github.com/yourusername/api_response_debugger/wiki)
+- [Report Issues](https://github.com/Surajshr/api_response_tracker/issues)
+- [Request Features](https://github.com/Surajshr/api_response_tracker/issues/new)
+- [Documentation](https://github.com/Surajshr/api_response_tracker/wiki)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
