@@ -1,10 +1,10 @@
 name: api_response_debugger
 description: A Flutter package for debugging and tracking API responses with advanced visualization and analysis tools.
 version: 0.0.3
-homepage: https://github.com/yourusername/api_response_debugger
-repository: https://github.com/surajshrestha9/api_response_tracker
-issue_tracker: https://github.com/surajshrestha9/api_response_tracker/issues
-documentation: https://github.com/surajshrestha9/api_response_tracker#readme
+homepage: https://github.com/Surajshr/api_response_tracker
+repository: https://github.com/Surajshr/api_response_tracker
+issue_tracker: https://github.com/Surajshr/api_response_tracker/issues
+documentation: https://github.com/Surajshr/api_response_tracker#readme
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

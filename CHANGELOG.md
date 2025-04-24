@@ -1,3 +1,10 @@
+## 0.0.4 
+
+### Fixed
+* License warranty and liability disclaimers
+* Package metadata completeness
+* Documentation formatting
+
 ## 0.0.3 
 
 ### Added
