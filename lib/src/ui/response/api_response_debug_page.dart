@@ -11,10 +11,10 @@ class ApiResponseDebugPage extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _ApiResponseDebugPageState createState() => _ApiResponseDebugPageState();
+  ApiResponseDebugPageState createState() => ApiResponseDebugPageState();
 }
 
-class _ApiResponseDebugPageState extends State<ApiResponseDebugPage> {
+class ApiResponseDebugPageState extends State<ApiResponseDebugPage> {
   final ApiResponseTracker _tracker = ApiResponseTracker();
   List<ApiResponseRecord> _responses = [];
   ApiResponseRecord? _selectedResponse;
@@ -120,7 +120,7 @@ class _ApiResponseDebugPageState extends State<ApiResponseDebugPage> {
                   });
                 },
                 tileColor: _comparisonResponse?.id == response.id
-                    ? Colors.amber.withOpacity(0.3)
+                    ? Colors.amber.withAlpha(76)
                     : null,
               );
             },
@@ -137,7 +137,7 @@ class _ApiResponseDebugPageState extends State<ApiResponseDebugPage> {
               ),
             ],
           ),
-          child: VerticalDivider(
+          child: const VerticalDivider(
             width: 1,
             color: Colors.black12,
             endIndent: 30,
@@ -259,8 +259,9 @@ class _ApiResponseDebugPageState extends State<ApiResponseDebugPage> {
   }
 
   Widget _buildDiffView() {
-    if (_diffResult == null)
+    if (_diffResult == null) {
       return const Center(child: Text('No comparison data'));
+    }
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16),
